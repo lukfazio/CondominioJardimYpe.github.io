@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wiki Oficial do Condomínio Jardim do Ypê - Convenção Condominial, Regulamento Interno e Perguntas Frequentes (FAQ)">
+  <meta name="author" content="Condomínio Jardim do Ypê">
+  <title>Condomínio Jardim do Ypê | Wiki & Documentação</title>
+
+  <!-- Favicon com SVG inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+
+  <!-- Estilos da Aplicação -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Marked.js para renderização de Markdown (CDN com fallback no app.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Cache de Documentos para compatibilidade com file:// e Google Sites Embed Code -->
+  <script src="docs-cache.js"></script>
+</head>
+<body>
+
+  <!-- CABEÇALHO PRINCIPAL -->
+  <header class="app-header">
+    <div class="brand" onclick="switchTab('convencao')" title="Ir para o início">
+      <div class="brand-icon">🌿</div>
+      <div class="brand-text">
+        <h1>Jardim do Ypê</h1>
+        <span>Wiki &amp; Documentação Oficial</span>
+      </div>
+    </div>
+
+    <!-- Barra de Busca Global -->
+    <div class="header-search">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="globalSearchInput" 
+          class="search-input" 
+          placeholder="Pesquisar termos (ex: silêncio, garagem, mudança, pet, piscina, multa)..." 
+          autocomplete="off"
+        >
+        <span class="search-shortcut">Ctrl+K</span>
+        <button id="clearSearchBtn" class="search-clear-btn" title="Limpar pesquisa">✕</button>
+      </div>
+    </div>
+
+    <!-- Ações e Acessibilidade -->
+    <div class="header-actions">
+      <div id="liveStatusBadge" class="status-badge" title="Status da sincronização com arquivos Markdown">
+        <span class="status-dot"></span> Carregando...
+      </div>
+
+      <!-- Ajuste de Fonte -->
+      <button class="btn-icon" onclick="changeFontSize(-0.05)" title="Diminuir tamanho do texto">A-</button>
+      <button class="btn-icon" onclick="resetFontSize()" title="Tamanho normal do texto">A</button>
+      <button class="btn-icon" onclick="changeFontSize(0.05)" title="Aumentar tamanho do texto">A+</button>
+
+      <!-- Alternador de Tema Escuro/Claro -->
+      <button id="themeToggleBtn" class="btn-icon" onclick="toggleTheme()" title="Alternar Modo Escuro / Claro">🌙</button>
+
+      <!-- Imprimir / PDF -->
+      <button class="btn-icon" onclick="window.print()" title="Imprimir documento atual">🖨️</button>
+
+      <!-- Informações da Aplicação e Aviso Legal -->
+      <button class="btn-icon" onclick="openModal('infoModal')" title="Sobre a aplicação, autoria e aviso legal">ℹ️</button>
+    </div>
+  </header>
+
+  <!-- SUB-HEADER: ABAS DE NAVEGAÇÃO -->
+  <nav class="nav-tabs-bar">
+    <div class="nav-tabs">
+      <button class="nav-tab active" data-tab="convencao" onclick="switchTab('convencao')">
+        <span>📘</span> Convenção Condominial
+      </button>
+      <button class="nav-tab" data-tab="regulamento" onclick="switchTab('regulamento')">
+        <span>📋</span> Regulamento Interno
+      </button>
+      <button class="nav-tab" data-tab="faq" onclick="switchTab('faq')">
+        <span>❓</span> Perguntas Frequentes (FAQ)
+      </button>
+      <button class="nav-tab" data-tab="tematico" onclick="switchTab('tematico')">
+        <span>📑</span> Guia Rápido por Assuntos
+      </button>
+    </div>
+
+    <!-- Botão de abrir menu no mobile -->
+    <button class="sidebar-toggle-btn" onclick="toggleMobileSidebar()">
+      <span>📑</span> Sumário
+    </button>
+  </nav>
+
+  <!-- CONTAINER PRINCIPAL -->
+  <div class="app-container">
+    
+    <!-- BARRA LATERAL (SIDEBAR DE SUMÁRIO) -->
+    <aside id="appSidebar" class="app-sidebar">
+      
+      <!-- Seção: Sumário Dinâmico (TOC) -->
+      <div style="flex: 1;">
+        <div class="sidebar-section-title">
+          <span>Sumário</span>
+          <span>📑</span>
+        </div>
+        <ul id="tocList" class="toc-list">
+          <li class="toc-item" style="color:var(--text-muted);font-size:0.8rem;">Carregando sumário...</li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- ÁREA DE CONTEÚDO PRINCIPAL -->
+    <main id="mainContentArea" class="app-content">
+      <div style="text-align:center;padding:4rem 1rem;color:var(--text-muted);">
+        <p style="font-size:1.2rem;">Carregando documentação do condomínio...</p>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- BOTÃO VOLTAR AO TOPO -->
+  <button id="backToTopBtn" class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Voltar ao início da página">
+    ▲
+  </button>
+
+  <!-- RODAPÉ -->
+  <footer class="app-footer">
+    <p>
+      <strong>Condomínio Jardim do Ypê</strong> — Rua Sérgio Martins Blumer Bastos, nº 50 - Horto do Ypê, São Paulo (SP)
+    </p>
+    <p style="margin-top: 0.35rem; font-size: 0.82rem; color: var(--text-muted);">
+      Aplicação desenvolvida por <strong>Lúcio Fázio</strong> (<a href="mailto:lukfazio@gmail.com">lukfazio@gmail.com</a>) em <strong>Novembro de 2026</strong>.
+    </p>
+    <p style="margin-top: 0.4rem; font-size: 0.75rem; color: var(--text-muted); line-height: 1.5; max-width: 900px; margin-left: auto; margin-right: auto;">
+      ⚖️ <em>Aviso Legal:</em> Todas as informações, normas, artigos e regulamentos contidos nesta aplicação são de exclusiva propriedade e domínio do <strong>Condomínio Jardim do Ypê</strong>, tendo caráter meramente informativo e de consulta facilitada para condôminos e moradores.
+      <a href="javascript:void(0)" onclick="openModal('infoModal')" style="margin-left: 0.35rem;">Ver termos legais completos</a>
+    </p>
+  </footer>
+
+  <!-- MODAL: INFORMAÇÕES DA APLICAÇÃO E AVISO LEGAL -->
+  <div id="infoModal" class="modal-overlay" onclick="if(event.target===this)closeModal('infoModal')">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>🌿 Sobre a Aplicação &amp; Aviso Legal</h3>
+        <button class="modal-close-btn" onclick="closeModal('infoModal')">✕</button>
+      </div>
+      <div class="modal-body">
+        <h4>ℹ️ Finalidade da Aplicação</h4>
+        <p>
+          Esta plataforma web foi desenvolvida para proporcionar aos condôminos, inquilinos e administradores do <strong>Condomínio Jardim do Ypê</strong> uma navegação ágil, pesquisa instantânea de termos e esclarecimento rápido de dúvidas (FAQ) sobre a vida condominial.
+        </p>
+
+        <div style="background-color: var(--bg-sidebar); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin: 1rem 0;">
+          <p style="margin: 0 0 0.35rem;"><strong>👤 Criação e Desenvolvimento:</strong> Lúcio Fázio</p>
+          <p style="margin: 0 0 0.35rem;"><strong>✉️ Contato:</strong> <a href="mailto:lukfazio@gmail.com">lukfazio@gmail.com</a></p>
+          <p style="margin: 0;"><strong>📅 Data de Criação:</strong> 13 de Novembro de 2026</p>
+        </div>
+
+        <h4>⚖️ Titularidade, Domínio e Termo de Isenção de Responsabilidade</h4>
+        <ul>
+          <li>
+            <strong>Propriedade e Domínio do Condomínio:</strong> Todo o conteúdo, incluindo o texto integral da Convenção de Condomínio e do Regulamento Interno, é de <strong>exclusiva propriedade e domínio do Condomínio Jardim do Ypê</strong>. O desenvolvedor atuou unicamente na estruturação técnica da ferramenta de consulta.
+          </li>
+          <li>
+            <strong>Caráter Meramente Informativo:</strong> Esta ferramenta destina-se exclusivamente à facilitação da consulta diária e convivência pacífica comunitária. Os textos reproduzem as minutas originais registradas em cartório. Para quaisquer fins judiciais, extrajudiciais solenes ou certidões comprobatórias formais, prevalecem incondicionalmente os livros, atas e documentos arquivados na Administração do Condomínio.
+          </li>
+          <li>
+            <strong>Competência Soberana:</strong> Quaisquer alterações, interpretações oficiais ou deliberações sobre normas condominiais competem estrita e privativamente às Assembleias Gerais e ao Corpo Diretivo legalmente constituído (Síndico e Conselho), nos termos da Lei Federal nº 4.591/1964 e dos arts. 1.331 a 1.358 do Código Civil Brasileiro.
+          </li>
+        </ul>
+
+        <div style="margin-top: 1.5rem; text-align: right;">
+          <button class="btn-secondary" onclick="closeModal('infoModal')">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script Principal da Aplicação -->
+  <script src="app.js"></script>
+</body>
+</html>
