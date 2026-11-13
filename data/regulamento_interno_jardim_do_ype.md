@@ -3,6 +3,7 @@
 **Documento Original:** `regulamento_interno_Jardim_do_Ype.pdf`  
 **Endereço:** Rua Sérgio Martins Blumer Bastos, nº 50 - Horto do Ypê - São Paulo (SP)  
 **Data da Aprovação/Registro:** São Paulo, 20 de Setembro de 2009
+
 ---
 
 ## 1. DAS NORMAS REGULAMENTARES
