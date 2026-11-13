@@ -2,8 +2,7 @@
 
 **Documento Original:** `regulamento_interno_Jardim_do_Ype.pdf`  
 **Endereço:** Rua Sérgio Martins Blumer Bastos, nº 50 - Horto do Ypê - São Paulo (SP)  
-**Data da Aprovação/Registro:** São Paulo, 20 de Setembro de 2009 `#PendenteRevisaoManual` *(Anotação e carimbo do 5º Tabelião de Notas - Chácara Santo Antônio / Capão Redondo)*
-
+**Data da Aprovação/Registro:** São Paulo, 20 de Setembro de 2009
 ---
 
 ## 1. DAS NORMAS REGULAMENTARES
@@ -314,7 +313,7 @@ Deverão constar nos contratos de prestação de serviços firmados pelo condom�
 *   **15.6** Utilizar-se dos móveis ou dependências exclusivamente destinadas aos condôminos e moradores.
 *   **15.7** Abandonar o seu setor ao fim do turno, sem que o mesmo seja ocupado pelo substituto. Em caso de ausência deste, deverá haver prévia comunicação à administração do condomínio para as devidas e necessárias providências.
 *   **15.8** Permanecer no condomínio fora do horário de trabalho, salvo para tratar de assuntos ligados ao trabalho e, mesmo assim, com a autorização da administração.
-*   **15.10** Entrar em qualquer dependência funcional do condomínio quando não estiver em horário de trabalho. `#PendenteRevisaoManual` *(Item 15.9 ausente no documento físico original por equívoco na numeração/tipografia do documento)*
+*   **15.10** Entrar em qualquer dependência funcional do condomínio quando não estiver em horário de trabalho. 
 *   **15.11** Fazer qualquer propaganda política ou religiosa, bem como idealizar, efetivar, incitar os colegas ou tomar parte em qualquer insubordinação coletiva.
 *   **15.12** Fazer uso de bebidas alcoólicas dentro do condomínio, mesmo não estando em serviço.
 *   **15.13** Efetuar nas dependências do condomínio venda ou compra de qualquer artigo, a colega ou a qualquer pessoa.
@@ -384,7 +383,7 @@ Deverão constar nos contratos de prestação de serviços firmados pelo condom�
 
 ---
 
-## REGISTROS E ASSINATURAS `#PendenteRevisaoManual`
+## REGISTROS E ASSINATURAS 
 
 **Data e Local:** São Paulo, 20 de Setembro de 2009  
 
@@ -392,5 +391,3 @@ Deverão constar nos contratos de prestação de serviços firmados pelo condom�
 *   **Leonardo Horvath** - Secretário
 *   **Marcelo Fernando Gonçalves** - Síndico
 
-**Anotações e Carimbos do Cartório:** `#PendenteRevisaoManual`
-*   Reconhecimentos de firma por semelhança no 5º Tabelião de Notas - Chácara Santo Antônio / Capão Redondo, São Paulo - SP (Firma reconhecida de Marcelo Fernando Gonçalves em 09/11/2009; Emolumentos e selos de autenticidade sob nºs 1036AA422428 / AB422368).

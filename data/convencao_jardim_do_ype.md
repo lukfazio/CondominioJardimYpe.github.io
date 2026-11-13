@@ -3,7 +3,7 @@
 **Documento Original:** `Convencao_Jardim_do_Ype.pdf`
 **Localização:** Rua Sérgio Martins Blumer Bastos, nº 50 - Horto do Ypê, Campo Limpo, São Paulo - SP
 **Regime Jurídico:** Lei Federal nº 4.591, de 16 de dezembro de 1964
-**Data da Minuta/Assinatura Original:** 08/08/1990 `#PendenteRevisaoManual` *(Data e carimbos de reconhecimento de firma com sobreposições e desgastes de imagem)*
+**Data da Minuta/Assinatura Original:** 08/08/1996
 
 ---
 
@@ -41,7 +41,7 @@ O empreendimento, com entrada pela Rua Sérgio Martins Blumer Bastos nº 50, ter
 
 #### TÉRREO GERAL
 
-Contendo a entrada principal e única do conjunto, para pedestres e veículos, pela Rua Sérgio Martins Blumer Bastos; portaria geral contendo na respectiva edificação, dois depósitos, sanitário, vestiários masculino e feminino; 457 (quatrocentos e cinquenta e sete) vagas de garagem das quais, 55 (cinquenta e cinco) vagas constituirão unidades autônomas, consoante definido na letra "S" abaixo `#PendenteRevisaoManual` *(Referência a anexos com marcação manuscrita e vistos)* e 402 (quatrocentas e duas) vagas individuais e indeterminadas, as quais comportarão igual número de vagas de veículos de passeio e/ou utilitários, sendo certo que tão só para comprovação de capacidade e disponibilidade, tais vagas estão numeradas às fls. 2/5 do projeto aprovado, sob nºs 1G a 7G, 8M a 188M, 189P, 194P a 199P, 203P a 215P, 219P a 224P, 228P a 234P, 238P a 247P, 252P a 259P, 263P a 270P, 274P a 283P, 288P a 295P, 299P a 300P, 310P a 314P, 318P a 323P, 327P a 332P, 336P a 342P, 346P a 350P, 355P a 359P, 363P a 445P; 446G a 457G; 38 (trinta e oito) vagas individuais e indeterminadas, numeradas sob nºs 1 a 38, às mesmas fls. 2/5, que comportarão igual número de motocicletas; 04 (quatro) vagas para deficientes físicos e 01 (uma) vaga destinada ao uso do zelador, áreas de circulação e manobra de veículos; Via de Circulação de Pedestres, Via de Circulação de Acesso ao Bloco 06; guarita coberta; piscina com deck; quadra de esportes; play-ground; áreas de lazer; áreas de acomodação e muro de fecho.
+Contendo a entrada principal e única do conjunto, para pedestres e veículos, pela Rua Sérgio Martins Blumer Bastos; portaria geral contendo na respectiva edificação, dois depósitos, sanitário, vestiários masculino e feminino; 457 (quatrocentos e cinquenta e sete) vagas de garagem das quais, 55 (cinquenta e cinco) vagas constituirão unidades autônomas, consoante definido na letra "S" abaixo e 402 (quatrocentas e duas) vagas individuais e indeterminadas, as quais comportarão igual número de vagas de veículos de passeio e/ou utilitários, sendo certo que tão só para comprovação de capacidade e disponibilidade, tais vagas estão numeradas às fls. 2/5 do projeto aprovado, sob nºs 1G a 7G, 8M a 188M, 189P, 194P a 199P, 203P a 215P, 219P a 224P, 228P a 234P, 238P a 247P, 252P a 259P, 263P a 270P, 274P a 283P, 288P a 295P, 299P a 300P, 310P a 314P, 318P a 323P, 327P a 332P, 336P a 342P, 346P a 350P, 355P a 359P, 363P a 445P; 446G a 457G; 38 (trinta e oito) vagas individuais e indeterminadas, numeradas sob nºs 1 a 38, às mesmas fls. 2/5, que comportarão igual número de motocicletas; 04 (quatro) vagas para deficientes físicos e 01 (uma) vaga destinada ao uso do zelador, áreas de circulação e manobra de veículos; Via de Circulação de Pedestres, Via de Circulação de Acesso ao Bloco 06; guarita coberta; piscina com deck; quadra de esportes; play-ground; áreas de lazer; áreas de acomodação e muro de fecho.
 
 #### ESTRUTURA DOS EDIFÍCIOS (TÍPICA PARA OS 17 EDIFÍCIOS)
 
@@ -420,13 +420,9 @@ Fica eleito o foro da comarca de São Paulo, com renúncia de qualquer outro por
 
 ---
 
-## ASSINATURAS E REGISTROS CARTORÁRIOS `#PendenteRevisaoManual`
+## ASSINATURAS E REGISTROS CARTORÁRIOS 
 
-**Data e Local:** São Paulo, 08 de Agosto de 1990 (ou 1996 `#PendenteRevisaoManual` *data em algarismos manuscritos com sobreposição de carimbo*)**(MINUTA PARA OS FINS E EFEITOS DA ALÍNEA "J" DO ART. 32, DA LEI 4591/64)**
+**Data e Local:** São Paulo, 08 de Agosto de 1996 **(MINUTA PARA OS FINS E EFEITOS DA ALÍNEA "J" DO ART. 32, DA LEI 4591/64)**
 
 * **CONTRACTHOR CONSTRUTORA E INCORPORADORA LTDA.**
 * **BETANCOURT ENGENHARIA LTDA.**
-
-**Anotações Cartorárias e Carimbos:** `#PendenteRevisaoManual`
-
-* Reconhecimento de firma por semelhança no 50º Tabelião de Notas (José Roberto Pacheco França - Tabelião / Validade somente com selo de autenticidade / Carimbo da data 09 de Novembro de 2009 / Assinatura do Escrevente Autorizado Elisangela Godoy dos Santos / Emerson de Oliveira Silva).
